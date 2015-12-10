@@ -1,0 +1,6 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#00000000"
+    android:clickable="false"
+    android:background="@drawable/ic_color_lens_white_18dp" />

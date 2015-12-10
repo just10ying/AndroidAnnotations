@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Annotations</string>
+
+    <!--Picture Activity-->
+    <string name="camera">Camera</string>
+    <string name="take_picture">Take Picture</string>
+
+    <!--Annotations Activity-->
+    <string name="title_activity_edit">Annotations</string>
+
+    <string name="discard_annotations">Delete Annotations</string>
+    <string name="discard_annotations_message">Are you sure you want to discard your annotations? This action is irreversible.</string>
+
+    <string name="submit_annotations">Submit Annotations</string>
+    <string name="submit_annotations_message">Are you sure you want to submit these annotations?</string>
+
+    <string name="draw_mode">Draw Mode</string>
+    <string name="text_mode">Text Mode</string>
+
+    <string name="edit_annotation_text">Edit Annotation Text</string>
+
+    <string name="loading_text">Loading...</string>
+
+    <string name="image_recognition_progress_title">Processing</string>
+    <string name="image_recognition_progress_content">Finding reference objects...</string>
+
+    <string name="select_reference_object">Select a reference object:</string>
+    <string name="recalibrate_button">Recalibrate</string>
+
+    <string name="modal_accept">OK</string>
+    <string name="modal_decline">Cancel</string>
+
+    <string name="distance_entry_title">Measurement Metrics</string>
+    <string name="distance_entry_content">Enter the distance of the longest side of the object in centimeters:</string>
+
+    <string name="no_contours_found_title">No Reference Object Found</string>
+    <string name="no_contours_found_message">Would you like to retake the picture, discarding all current annotations?</string>
+
+    <!--Spinner Colors-->
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+
+    <string-array name="color_strings">
+        <item>@string/black</item>
+        <item>@string/white</item>
+        <item>@string/blue</item>
+        <item>@string/red</item>
+        <item>@string/green</item>
+    </string-array>
+
+</resources>

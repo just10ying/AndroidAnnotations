@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jying.androidannotations.EditActivity">
+
+    <item android:id="@+id/discard_drawing" android:title="@string/discard_annotations"
+        android:orderInCategory="3" app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_delete_white_18dp"/>
+
+    <item android:id="@+id/submit_drawing" android:title="@string/submit_annotations"
+        android:orderInCategory="4" app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_send_white_18dp"/>
+</menu>

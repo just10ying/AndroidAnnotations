@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layer_toolbar_height">
+
+    <ImageButton
+        android:id="@+id/undo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_undo_white_18dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/redo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_redo_white_18dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/undo"
+        android:layout_toRightOf="@id/undo" />
+
+    <Spinner
+        android:id="@+id/color_spinner"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/size_spinner"
+        android:layout_toStartOf="@+id/size_spinner" />
+
+    <Spinner
+        android:id="@+id/size_spinner"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_toStartOf="@+id/eraser"
+        android:layout_toLeftOf="@+id/eraser"/>
+
+    <ImageButton
+        android:id="@+id/eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_crop_din_white_18dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

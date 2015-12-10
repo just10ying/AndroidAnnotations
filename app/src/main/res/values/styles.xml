@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="ButtonSelected">#7D7D7D</color>
+    <color name="ButtonUnselected">#303030</color>
+    <color name="GrayBackground">#303030</color>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.Fullscreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
